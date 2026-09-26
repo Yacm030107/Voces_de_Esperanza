@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yacm030107.github.io/Voces_de_Esperanza/sitemap.xml
