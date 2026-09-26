@@ -95,4 +95,32 @@ footer{text-align:center;padding:26px;background:linear-gradient(90deg,#000,var(
 footer .derechos{margin:8px auto 0;max-width:640px;font-size:.78rem;color:#cffafe}
 .lightbox{position:fixed;inset:0;background:rgba(3,8,20,.93);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px;z-index:50}
 .lightbox[hidden]{display:none}.lightbox img{max-width:92vw;max-height:80vh;border-radius:12px;border:4px solid var(--azul-vivo)}.lightbox p{color:#fff}
-@media(max-width:700px){.fila,.fila:nth-child(even){grid-template-columns:1fr}.fila:nth-child(even) .foto{order:0}.fila .foto{height:260px}.grid-fotos img{height:130px}}
+@media(max-width:700px){
+  body{overflow-x:hidden}
+  .cinta{font-size:.68rem;letter-spacing:.08em;padding:10px 12px}
+  .portada{min-height:52vh}
+  .portada-texto{padding:28px 16px 20px}
+  h1{font-size:2rem}
+  .onda{height:34px}
+  .menu{flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .menu a{flex-shrink:0;font-size:.82rem;padding:8px 13px}
+  .bloque{padding:24px 14px}
+  .bloque h2{font-size:1.3rem}
+  .fila,.fila:nth-child(even){grid-template-columns:1fr}
+  .fila:nth-child(even) .foto{order:0}
+  .fila .foto{height:250px}
+  .fila .txt{padding:14px}
+  .fila:has(.fundador) .txt{padding-top:38px}
+  .fila:has(.coord) .txt{padding-top:74px}
+  .directora{font-size:.88rem}
+  .directora img{width:52px;height:52px}
+  .banda{grid-template-columns:40px 1fr;padding:12px 14px}
+  .banda .num{font-size:1.2rem}
+  .grid-fotos{grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px}
+  .grid-fotos img{height:130px}
+  .grid-videos{grid-template-columns:1fr}
+  .repro video{height:200px}
+  .foto-paso img{height:180px}
+  .etapa{font-size:.9rem}
+  footer{font-size:.9rem;padding:22px 14px}
+}
