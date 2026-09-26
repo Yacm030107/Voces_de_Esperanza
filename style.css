@@ -54,6 +54,9 @@ h1{margin:.15em 0;font-size:clamp(2.2rem,6.5vw,3.8rem);letter-spacing:-.01em;tex
 .fila:nth-child(even) .foto{order:2}
 .fila .foto{width:100%;height:100%;min-height:240px;object-fit:cover;object-position:top;display:block;background:var(--azul-claro)}
 .fila .foto.pos-cara{object-position:50% 30%}
+.fila .foto.pos-ronal{object-position:62% 0}
+.fila .foto.pos-elsy{object-position:40% 30%}
+.fila .foto.pos-maynor{object-position:50% 15%}
 .fila .txt{padding:16px 18px}
 .fila:has(.fundador) .txt{padding-top:40px}
 .fila:has(.coord) .txt{padding-top:78px}
