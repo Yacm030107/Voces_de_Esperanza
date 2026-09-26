@@ -14,7 +14,7 @@ fetch('datos.json').then(r=>r.json()).then(d=>{
   d.clips.forEach(c=>{
     const card=document.createElement('div');card.className='repro';
     const pant=document.createElement('div');pant.className='pantalla';
-    const v=document.createElement('video');v.src=c.file;v.controls=true;v.preload='none';
+    const v=document.createElement('video');v.src=c.file;v.controls=true;v.preload='none';v.poster=c.file.replace('clip-','poster-').replace('.mp4','.jpg');
     pant.appendChild(v);
     const p=document.createElement('div');p.className='titulo';p.textContent=c.evento;
     card.appendChild(pant);card.appendChild(p);gv.appendChild(card);
