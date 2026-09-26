@@ -32,7 +32,7 @@ const PASO_FOTOS=[
   {img:'fotos/foto-06.jpg',cap:'Presentación FUNCAIN · 10 Sept 2025'},
   {img:'fotos/foto-03.jpg',cap:'Bienvenida 3er período · UTH Villanueva · 2025'},
   {img:'fotos/foto-04.jpg',cap:'Bienvenida · 7 Feb 2026'},
-  {img:'fotos/foto-08.jpg',cap:'Evento cristiano · 17 May 2026'},
+  {img:'fotos/foto-09.jpg',cap:'Evento cristiano · 17 May 2026'},
 ];
 function activaEtapa(k){
   if(!PASO_FOTOS[k])return;
