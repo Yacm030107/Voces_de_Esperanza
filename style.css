@@ -59,6 +59,7 @@ h1{margin:.15em 0;font-size:clamp(2.2rem,6.5vw,3.8rem);letter-spacing:-.01em;tex
 .fila h3{margin:0;color:var(--azul-oscuro)}
 .fila .rol{margin:4px 0;font-size:.85rem;color:var(--gris)}
 .fila .carrera{margin:0;font-weight:700;color:var(--azul);font-size:.92rem}
+.fila blockquote{margin:10px 0 0;padding:9px 12px;background:var(--azul-claro);border-left:6px solid var(--azul-vivo);border-radius:0 10px 10px 0;font-style:italic;font-size:.9rem;color:#333}
 .fundador{position:absolute;top:12px;left:0;z-index:2;background:linear-gradient(90deg,#9a6b00,#ffd700 60%,#ffedb0);color:#3a2b00;font-weight:800;font-size:.7rem;letter-spacing:.1em;padding:6px 14px 6px 10px;border-radius:0 999px 999px 0;box-shadow:0 2px 8px rgba(0,0,0,.35)}
 .coord{position:absolute;top:44px;left:0;z-index:2;background:linear-gradient(90deg,#000,var(--azul-vivo));color:#fff;font-weight:800;font-size:.7rem;letter-spacing:.1em;padding:6px 14px 6px 10px;border-radius:0 999px 999px 0}
 /* Timeline vertical */
