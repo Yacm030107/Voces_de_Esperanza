@@ -95,6 +95,9 @@ h1{margin:.15em 0;font-size:clamp(2.2rem,6.5vw,3.8rem);letter-spacing:-.01em;tex
 .red strong{display:block;font-size:1.2rem}
 .red span{font-size:.85rem;color:var(--gris);word-break:break-all}
 .red.yt{border-top-color:#ff0000}.red.yt strong{color:#ff0000}
+.red.tt{border-top-color:#111}.red.tt strong{color:#111}
+.red.sf{border-top-color:#0d7a3f}.red.sf strong{color:#0d7a3f}
+.red p{font-size:.88rem;color:#333;margin:8px 0 0;line-height:1.55}
 footer{text-align:center;padding:26px;background:linear-gradient(90deg,#000,var(--azul-oscuro));color:#fff;border-top:5px solid var(--azul-vivo)}
 footer .derechos{margin:8px auto 0;max-width:640px;font-size:.78rem;color:#cffafe}
 .lightbox{position:fixed;inset:0;background:rgba(3,8,20,.93);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px;z-index:50}
